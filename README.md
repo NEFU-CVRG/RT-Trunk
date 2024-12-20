@@ -7,4 +7,5 @@
 - Install mmpretrain according to the [official tutorial](https://mmpretrain.readthedocs.io/en/latest/get_started.html#installation).
 - Enter the "projects" folder under the mmdetection directory, and then execute the following commands:
   ```git
-  git clone https://github.com/NEFU-CVRG/RT-Trunk.git 
+  git clone https://github.com/NEFU-CVRG/RT-Trunk.git
+- Download the [pre-trained weight](https://github.com/open-mmlab/mmpretrain/tree/main/configs/convnext) of ConvNeXt from mmpretrain and put it into the pretrained_weights folder under the RT-Trunk directory.
