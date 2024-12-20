@@ -6,4 +6,5 @@
 - Install mmdetection according to the [official tutorial](https://mmdetection.readthedocs.io/en/latest/get_started.html).
 - Install mmpretrain according to the [official tutorial](https://mmpretrain.readthedocs.io/en/latest/get_started.html#installation).
 - Enter the "projects" folder under the mmdetection directory, and then execute the following commands:
-  ```git 
+  ```git
+  git clone https://github.com/NEFU-CVRG/RT-Trunk.git 
