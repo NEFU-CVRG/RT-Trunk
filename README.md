@@ -9,3 +9,12 @@
   ```git
   git clone https://github.com/NEFU-CVRG/RT-Trunk.git
 - Download the [pre-trained weight](https://github.com/open-mmlab/mmpretrain/tree/main/configs/convnext) of ConvNeXt from mmpretrain and put it into the pretrained_weights folder under the RT-Trunk directory.
+- Download the pre-trained weight of SparseInst from the [official model zoo](https://github.com/hustvl/SparseInst#models) of SparseInst and put it into the pretrained_weights folder under the RT-Trunk directory.
+# Dataset Preparation
+- Prepare your dataset according to the COCO data format and with reference to the [dataset preparation tutorial](https://mmdetection.readthedocs.io/en/latest/user_guides/dataset_prepare.html) of mmdetection.
+# Training
+```
+python tools/train.py projects/RT-Trunk/configs/RTtrunk_1x-ms-270k_coco.py
+```
+# Acknowledgement
+We sincerely thank [mmdetection](https://github.com/open-mmlab/mmdetection), [mmpretrain](https://github.com/open-mmlab/mmpretrain), [SparseInst](https://github.com/hustvl/SparseInst), [yolov4-tiny-pytorch](https://github.com/bubbliiiing/yolov4-tiny-pytorch) for providing their wonderful code to the community!
